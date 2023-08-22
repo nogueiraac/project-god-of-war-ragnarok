@@ -8,12 +8,28 @@
     color: white;
     margin-left: 1.5rem;
   }
+  @media(max-width:1200px) {
+    span {
+      font-size: 1.8rem;
+    }
+  }
+  @media(max-width:991px) {
+    justify-content: center;
+  }
+  @media(max-width: 560px){
+    font-size: 1.6rem;
+  }
 }
 
 h1 {
   font-weight: 700;
-  font-size: 12.4rem;
+  font-size: 7.75rem;
   line-height: 97.5%;
+  @media(max-width:1200px){
+    span {
+      font-size: 6.25rem;
+    }
+  }
 }
 
 h2 {
@@ -77,5 +93,13 @@ p {
         bottom: 5.7rem;
       }
     }
+  }
+  @media(max-width:991px){
+    .image{
+      height: 44rem;
+    }
+  }
+  @media(max-width:560px){
+    padding: 4rem 0;
   }
 }
