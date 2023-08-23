@@ -201,6 +201,28 @@
       }
     }
   }
+  @media(max-width: 1200px) {
+    padding: 4rem 0;
+    height: auto;
+    ul {
+      flex-wrap: wrap;
+      gap: 3rem 0;
+      li {
+        width: 33.3%;
+      }
+    }
+  }
+  @media(max-width: 560px) {
+    ul {
+      li {
+        width: 50%;
+        span {
+          max-width: 14.5rem;
+        }
+      }
+    }
+  }
+  
 }
 
 .s-story {
@@ -243,6 +265,63 @@
     left: 4rem;
     top: 0.5rem;
   }
+
+  @media(max-width: 1200px) {
+    background-image: none;
+    padding: 6rem 0;
+    .container {
+      flex-direction: column-reverse;
+    }
+    .left {
+      max-width: 100%;
+      text-align: center;
+      .subtitle {
+        justify-content: center;
+      }
+      h2 {
+        max-width: 75%;
+        margin: 2rem auto;
+      }
+      .corp {
+        justify-content: center;
+      }
+    }
+    .kratos-atreus {
+      left: 0;
+      top: 0;
+      margin-bottom: 6rem;
+    }
+  }
+
+  @media(max-width: 991px) {
+    .left {
+      h2 {
+        max-width: 95%;
+      }
+    }
+  }
+
+  @media(max-width: 991px) {
+    .left {
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+      }
+      .corp {
+        flex-direction: column;
+        p {
+          margin-left: 0;
+          margin-top: 3rem;
+        }
+      }
+    }
+    .kratos-atreus {
+      margin-bottom: 4rem;
+    }
+  }
 }
 
 .s-characters {
@@ -280,4 +359,47 @@
       }
     }
   }
+  @media(max-width: 1200px) {
+    padding: 6rem 0;
+  }
+  @media(max-width: 991px) {
+    .description {
+      flex-direction: column;
+      align-items: center;
+      .left {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+    }
+  }
+  @media(max-width: 560px) {
+    padding: 4rem 0;
+    .description {
+      .left {
+        h2 {
+          font-size: 3rem;
+        } 
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .right {
+         flex-direction: column;
+         align-items: center;
+         .text {
+           img {
+             margin: 0 auto;
+           }
+           span {
+             max-width: 100%;
+           }
+         }
+      }
+    }
+    .slide-characters {
+      margin-top: 4rem;
+    }
+  }
+
 }
