@@ -17,3 +17,8 @@ var swiper = new Swiper(".slide-characters", {
     }
   }
 });
+
+AOS.init({
+  duration: 1000,
+  once: true
+})
