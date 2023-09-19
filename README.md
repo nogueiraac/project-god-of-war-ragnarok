@@ -4,6 +4,8 @@
 
 Este é um projeto de projeto para o jogo "God of War: Ragnarök", desenvolvido utilizando HTML5, SASS, CSS e JavaScript. Foi criado como parte do meu portfólio pessoal e destina-se a demonstrar minhas habilidades de desenvolvimento web.
 
+**Link para o projeto em produção**: [Projeto: God of War: Ragnarök](https://nogueiraac.github.io/project-god-of-war-ragnarok/)
+
 ## Visão Geral
 
 O objetivo deste projeto é criar um projeto envolvente que forneça informações sobre o jogo, trailers, imagens e uma experiência imersiva para os fãs. Queremos compartilhar nossa empolgação pelo próximo lançamento e oferecer aos visitantes uma visão exclusiva do mundo de "God of War: Ragnarök".
